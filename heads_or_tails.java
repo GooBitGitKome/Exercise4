@@ -26,5 +26,11 @@ public class heads_or_tails{
             }
         }
         System.out.println(String.format("Heads: %d, Tails: %d", cntHead, cntTails));
+        if(cntHead > cntTails)
+        {
+            System.out.println(String.format("You won!"));
+        }else{
+            System.out.println(String.format("You lost!"));
+        }
     }
 }
